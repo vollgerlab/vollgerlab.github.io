@@ -8,4 +8,6 @@ Coming to the Department of Human Genetics at the University of Utah on January 
 
 **Lab website Coming Soon!** See my [personal website](https://mrvollger.github.io) for now.
 
-Please {% github_edit_link "help improve this article" %}.
+#
+
+{% github_edit_link "Help improve this website" %}.
