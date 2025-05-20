@@ -7,7 +7,3 @@ Coming to the Department of Human Genetics at the University of Utah on January 
 ![image](/assets/images/mountains.png)
 
 **Lab website Coming Soon!** See my [personal website](https://mrvollger.github.io) for now.
-
-#
-
-{% github_edit_link "Help improve this website" %}.
