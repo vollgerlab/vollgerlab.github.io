@@ -2,7 +2,7 @@
 
 Coming to the Department of Human Genetics at the University of Utah on January 1st, 2026.
 
-**Postdoc and graduate student positions available! Contact mrvollger[at]gmail.com / mvollger[at]uw.edu**
+**Postdoc, staff, and graduate student positions available! Contact mrvollger[at]gmail.com / mvollger[at]uw.edu**
 
 ![image](/assets/images/mountains.png)
 
