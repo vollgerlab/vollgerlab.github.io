@@ -1,0 +1,33 @@
+title: Mitchell R. Vollger, Ph.D.  
+twitter_username: mrvollger
+github_username: mrvollger
+minimal_mistakes_skin:  "contrast"
+#"dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+#search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
+date_format: "%Y-%m-%d"
+
+#include:
+#  - _pages
+
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+github:
+  repository_url: https://github.com/vollgerlab/vollgerlab.github.io
+
