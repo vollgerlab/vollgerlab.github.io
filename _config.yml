@@ -1,33 +1,126 @@
-title: Mitchell R. Vollger, Ph.D.  
+title: "The Vollger Lab"
+description: >-
+  The Vollger Lab focuses on computational tools and approaches to reveal novel 
+  biological insights within segmental duplications and challenging genomic regions.
+baseurl: ""
+url: "https://vollgerlab.github.io"
 twitter_username: mrvollger
-github_username: mrvollger
-minimal_mistakes_skin:  "contrast"
-#"dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-#search: true
+github_username: vollgerlab
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
+# Disable theme defaults
+teaser: false
+
 # Outputting
-timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
-date_format: "%Y-%m-%d"
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/Los_Angeles
 
-#include:
-#  - _pages
+search: true
 
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-
-
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
-github:
-  repository_url: https://github.com/vollgerlab/vollgerlab.github.io
+# Site Author
+author:
+  name: "Mitchell R. Vollger"
+  avatar: "/assets/images/utah-logo.png"
+  bio: "Assistant Professor, Department of Human Genetics, University of Utah"
+  location: "Salt Lake City, UT"
+  links:
+    - label: "Personal Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mrvollger.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vollgerlab"
+    - label: "ORCID"
+      icon: "ai ai-orcid-square ai-fw"
+      url: "https://orcid.org/0000-0002-8651-1615"
 
+# Navigation
+navigation:
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /#contact
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mrvollger"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vollgerlab"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _pages (root)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Exclude from processing
+exclude:
+  - .pixi/
+  - pixi.toml
+  - pixi.lock
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
