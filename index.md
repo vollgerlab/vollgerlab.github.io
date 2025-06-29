@@ -27,10 +27,14 @@ read_time: false
   max-width: 150px !important;
   border-radius: 8px !important;
   object-fit: contain !important;
-  border: 1px solid #ccc !important;
+  border: 1px solid #e0e0e0 !important;
   background: transparent !important;
+  padding: 10px !important;
 }
 </style>
+
+<!-- Add Academicons for ORCID support -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <div class="notice--info" markdown="1">
 **🔬 Lab Opening January 2026**  
