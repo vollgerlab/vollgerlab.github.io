@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/mountains.png
   caption: "Utah mountains"
-excerpt: "**Computational genomics • Segmental duplications • Long-read sequencing**"
+excerpt: "**Segmental duplications • Gene regulation • Long-read sequencing**"
 show_date: false
 read_time: false
 ---
@@ -20,17 +20,7 @@ read_time: false
   background-position: center;
 }
 
-/* Make author avatar rectangular with border */
-.author__avatar img {
-  width: auto !important;
-  height: 150px !important;
-  max-width: 150px !important;
-  border-radius: 8px !important;
-  object-fit: contain !important;
-  border: 1px solid #e0e0e0 !important;
-  background: transparent !important;
-  padding: 10px !important;
-}
+/* Avatar styling is now in global CSS */
 </style>
 
 <!-- Add Academicons for ORCID support -->
@@ -41,7 +31,7 @@ read_time: false
 Coming to the Department of Human Genetics at the University of Utah on January 1st, 2026.  
 **Postdoc, staff, and graduate student positions available!**
 
-Contact: mrvollger[at]gmail.com / mrvollger[at]genetics.utah.edu / mvollger[at]uw.edu
+Contact: mrvollger[at]gmail.com / mrvollger[at]genetics.utah.edu
 
 </div>
 

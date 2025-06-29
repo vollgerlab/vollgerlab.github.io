@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/dark"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom styles for all pages */
+
+/* Make author avatar rectangular with border on all pages */
+.author__avatar img {
+  width: auto !important;
+  height: 150px !important;
+  max-width: 150px !important;
+  border-radius: 8px !important;
+  object-fit: contain !important;
+  border: 1px solid #e0e0e0 !important;
+  background: transparent !important;
+  padding: 10px !important;
+}

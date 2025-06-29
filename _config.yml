@@ -34,20 +34,20 @@ plugins:
 
 # Site Author
 author:
-  name: "Mitchell R. Vollger"
+  name: "The Vollger Lab"
   avatar: "/assets/images/utah-logo.png"
-  bio: "Assistant Professor, Department of Human Genetics, University of Utah"
+  bio: "Department of Human Genetics, University of Utah"
   location: "Salt Lake City, UT"
   links:
-    - label: "Personal Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://mrvollger.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vollgerlab"
     - label: "ORCID"
       icon: "ai ai-orcid-square ai-fw"
       url: "https://orcid.org/0000-0002-8651-1615"
+    - label: "Personal Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mrvollger.github.io"
 
 # Navigation
 navigation:
